@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "Add_Your_Session_Id", // Add your session id
+SESSION_ID: process.env.SESSION_ID || "mJZFRYQA#_LHqPurnqrRnOebBoQSyE1n1Xfawhk1hzX4s8L4s0yM", // Add your session id
 PREFIX: process.env.PREFIX || ".",
 MODE: process.env.MODE || "public",  //public | private | inbox | group
 OWNER_NUMBER: process.env.OWNER_NUMBER || "94779062397",
@@ -32,8 +32,8 @@ ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 ANTI_VV: process.env.ANTI_VV || "true",
 ANTI_DELETE: process.env.ANTI_DELETE || "true",
 ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "same",  // inbox | same
-WELCOME: process.env.WELCOME || "true",
-GOODBYE: process.env.GOODBYE || "true",
+WELCOME: process.env.WELCOME || "false",
+GOODBYE: process.env.GOODBYE || "false",
 ADMIN_EVENTS: process.env.ADMIN_EVENTS || "true",
 INBOX_BLOCK: process.env.INBOX_BLOCK || "false",
 OMDB_API_KEY: process.env.OMDB_API_KEY || "76cb7f39", // omdbapi.com
